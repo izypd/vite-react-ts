@@ -42,3 +42,10 @@ pnpm add -D eslint eslint-plugin-react @typescript-eslint/eslint-plugin eslint-c
 git add .eslintrc.js
 ```
 
+- [ ] Prettier
+
+```shell
+pnpm add -D prettier
+git add .prettierrc.js
+```
+
