@@ -25,3 +25,5 @@ git push --set-upstream origin main
 git commit -a -m ":fire:refactor: 删除不需要的文件"
 git push
 ```
+
+- [ ] IDE已检查ts，去掉tsc
