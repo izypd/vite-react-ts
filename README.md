@@ -19,3 +19,9 @@ git commit -m ":tada:init: 用Vite创建react-ts项目"
 git push --set-upstream origin main
 ```
 
+- [ ] 删除不需要的文件，并修改相关的文件
+
+```shell
+git commit -a -m ":fire:refactor: 删除不需要的文件"
+git push
+```
