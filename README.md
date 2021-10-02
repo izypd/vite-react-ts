@@ -27,3 +27,10 @@ git push
 ```
 
 - [ ] IDE已检查ts，去掉tsc
+
+- [ ] 路径alias
+
+```shell
+pnpm add -D @types/node
+```
+
