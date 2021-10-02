@@ -34,3 +34,11 @@ git push
 pnpm add -D @types/node
 ```
 
+- [ ] ESLint
+
+```shell
+pnpm add -D eslint eslint-plugin-react @typescript-eslint/eslint-plugin eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react-hooks @typescript-eslint/parser
+./node_modules/.bin/eslint --init
+git add .eslintrc.js
+```
+
