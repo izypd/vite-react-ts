@@ -42,10 +42,9 @@
     "vite": "^2.6.0"
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx,json,css}": [
+    "src/**/*.{js,jsx,ts,tsx,json}": [
       "pnpm prettier --write",
-      "pnpm lint",
-      "git add"
+      "pnpm lint"
     ]
   },
   "eslintIgnore": [
