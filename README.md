@@ -103,3 +103,15 @@ pnpm eslint --fix . --ext .js,.jsx,.ts,.tsx
 ```
 
 - [ ] 忽略.eslintcache
+
+## antd
+
+- [ ] 新分支添加antd，并按需导入样式
+
+```shell
+git checkout main
+git checkout -b antd
+pnpm add antd
+pnpm add -D vite-plugin-style-import
+```
+
