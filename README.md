@@ -76,3 +76,14 @@ pnpm prepare
 pnpm add -D lint-staged
 ```
 
+- [ ] commitlint
+
+```shell
+pnpm add -D commitlint commitlint-config-gitmoji
+pnpm husky add .husky/commit-msg 'pnpm commitlint --edit "$1"'
+git add .husky/commit-msg
+pnpm husky add .husky/pre-commit 'pnpm lint-staged --allow-empty "$1"'
+git add .husky/pre-commit
+git add commitlint.config.js
+```
+
