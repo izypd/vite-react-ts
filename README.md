@@ -102,3 +102,4 @@ pnpm eslint . --ext .js,.jsx,.ts,.tsx
 pnpm eslint --fix . --ext .js,.jsx,.ts,.tsx
 ```
 
+- [ ] 忽略.eslintcache
