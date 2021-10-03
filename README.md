@@ -40,7 +40,7 @@ pnpm add -D @types/node
 
 ```shell
 pnpm add -D eslint eslint-plugin-react @typescript-eslint/eslint-plugin eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react-hooks @typescript-eslint/parser
-./node_modules/.bin/eslint --init
+pnpm eslint --init
 git add .eslintrc.js
 ```
 
@@ -94,5 +94,11 @@ git add commitlint.config.js
 ```shell
 pnpm add -D eslint-config-airbnb-typescript
 pnpm eslint . --ext .js,.jsx,.ts,.tsx
+```
+
+- [ ] 修复ESLint报错
+
+```shell
+pnpm eslint --fix . --ext .js,.jsx,.ts,.tsx
 ```
 

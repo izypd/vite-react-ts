@@ -5,7 +5,8 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint": "eslint --cache --ext .js,.jsx,.ts,.tsx --no-error-on-unmatched-pattern --quiet --fix ./src"
   },
   "dependencies": {
     "react": "^17.0.0",
@@ -39,8 +40,8 @@
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json}": [
-      "prettier --write",
-      "eslint",
+      "pnpm prettier --write",
+      "pnpm lint",
       "git add"
     ]
   },
