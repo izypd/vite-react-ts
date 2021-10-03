@@ -62,3 +62,11 @@ pnpm add -D stylelint stylelint-config-standard
 git add .stylelintrc.js
 ```
 
+- [ ] husky
+
+```shell
+pnpm add -D husky
+npm set-script prepare "husky install"
+pnpm prepare
+```
+
