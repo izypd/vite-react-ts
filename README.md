@@ -70,3 +70,9 @@ npm set-script prepare "husky install"
 pnpm prepare
 ```
 
+- [ ] lint-staged
+
+```shell
+pnpm add -D lint-staged
+```
+
