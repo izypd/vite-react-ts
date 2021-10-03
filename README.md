@@ -1,5 +1,7 @@
 # Vite + React + TypeScript
 
+## Vite + React + TypeScript
+
 - [ ] 新建项目
 
 ```shell
@@ -85,5 +87,12 @@ git add .husky/commit-msg
 pnpm husky add .husky/pre-commit 'pnpm lint-staged --allow-empty "$1"'
 git add .husky/pre-commit
 git add commitlint.config.js
+```
+
+- [ ] 解决ESLint报错
+
+```shell
+pnpm add -D eslint-config-airbnb-typescript
+pnpm eslint . --ext .js,.jsx,.ts,.tsx
 ```
 

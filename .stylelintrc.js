@@ -8,7 +8,7 @@ module.exports = {
         ignore: ['stylelint-commands', 'after-comment'],
       },
     ],
-    'indentation': [2],
+    indentation: [2],
     'max-empty-lines': 2,
   },
 };
