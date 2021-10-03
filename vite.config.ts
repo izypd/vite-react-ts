@@ -2,6 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import path from 'path';
 import styleImport from 'vite-plugin-style-import';
+import WindiCSS from 'vite-plugin-windicss';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -18,6 +19,7 @@ export default defineConfig({
         },
       ],
     }),
+    WindiCSS(),
   ],
   resolve: {
     alias: [

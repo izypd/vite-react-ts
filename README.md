@@ -113,5 +113,11 @@ git checkout main
 git checkout -b antd
 pnpm add antd
 pnpm add -D vite-plugin-style-import
+## Windi CSS
+
+- [ ] 新分支添加Windi CSS
+
+```shell
+pnpm add -D vite-plugin-windicss windicss
 ```
 
