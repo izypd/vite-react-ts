@@ -49,3 +49,9 @@ pnpm add -D prettier
 git add .prettierrc.js
 ```
 
+- [ ] ESLint整合Prettier
+
+```shell
+pnpm add -D eslint-config-prettier eslint-plugin-prettier
+```
+
