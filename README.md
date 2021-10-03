@@ -55,3 +55,10 @@ git add .prettierrc.js
 pnpm add -D eslint-config-prettier eslint-plugin-prettier
 ```
 
+- [ ] Stylelint
+
+```shell
+pnpm add -D stylelint stylelint-config-standard
+git add .stylelintrc.js
+```
+
