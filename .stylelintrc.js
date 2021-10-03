@@ -10,5 +10,11 @@ module.exports = {
     ],
     indentation: [2],
     'max-empty-lines': 2,
+    'at-rule-no-unknown': [
+      true,
+      {
+        ignoreAtRules: ['tailwind'],
+      },
+    ],
   },
 };

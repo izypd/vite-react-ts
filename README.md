@@ -103,3 +103,14 @@ pnpm eslint --fix . --ext .js,.jsx,.ts,.tsx
 ```
 
 - [ ] 忽略.eslintcache
+
+## Tailwind CSS
+
+- [ ] 新分支添加Tailwind CSS
+
+```shell
+git checkout -b tailwind
+pnpm add -D tailwindcss postcss autoprefixer
+pnpm tailwindcss init -p
+```
+
