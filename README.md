@@ -103,3 +103,12 @@ pnpm eslint --fix . --ext .js,.jsx,.ts,.tsx
 ```
 
 - [ ] 忽略.eslintcache
+
+## Windi CSS
+
+- [ ] 新分支添加Windi CSS
+
+```shell
+pnpm add -D vite-plugin-windicss windicss
+```
+
