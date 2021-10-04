@@ -122,3 +122,11 @@ pnpm add -D vite-plugin-style-import
 pnpm add -D vite-plugin-windicss windicss
 ```
 
+## Vite + React + TypeScript
+
+- [ ] ESLint路径alias
+
+```shell
+pnpm add -D eslint-import-resolver-alias
+```
+
