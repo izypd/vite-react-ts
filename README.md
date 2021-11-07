@@ -13,5 +13,6 @@
 - lint-staged
 - commit-lint
 - 绝对路径别名
-- antd
-- Windi CSS
+- antd (分支)
+- Tailwind CSS (分支)
+- Windi CSS (分支)
